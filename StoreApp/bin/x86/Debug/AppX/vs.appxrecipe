@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GERGODESKTOP</Machine>
+    <WindowsUser>gergo</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>e49f2790-0c6e-4587-ab4b-7659f71c6592</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>99B261BCA1FCF9785F1BC7C837727047E1AAF3977A64DFA12E163C62F7D4A914</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>e49f2790-0c6e-4587-ab4b-7659f71c6592_1.0.0.0_x86__xd8ypqb5p9vcj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>e49f2790-0c6e-4587-ab4b-7659f71c6592_xd8ypqb5p9vcj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>e49f2790-0c6e-4587-ab4b-7659f71c6592</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=gergo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-08T09:30:05.170</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\bin\x86\Debug\StoreApp.exe">
+      <PackagePath>StoreApp.exe</PackagePath>
+      <Modified>2014-12-08T13:37:20.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.winmd">
+      <PackagePath>WindowsRuntimeComponent.winmd</PackagePath>
+      <Modified>2014-12-08T08:39:26.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.dll">
+      <PackagePath>WindowsRuntimeComponent.dll</PackagePath>
+      <Modified>2014-12-08T10:20:36.934</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T05:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-12-07T23:38:01.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-12-08T13:37:20.177</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\bin\x86\Debug\StoreApp.xr.xml">
+      <PackagePath>StoreApp.xr.xml</PackagePath>
+      <Modified>2014-12-08T13:37:20.120</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\StoreApp\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-08T09:30:03.352</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

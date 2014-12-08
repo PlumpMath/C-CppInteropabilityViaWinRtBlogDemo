@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="StoreApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:StoreApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Call to Native" HorizontalAlignment="Left" Margin="104,134,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="107,228,0,0" TextWrapping="Wrap" Text="Result:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" x:Name="ResultTb" Margin="157,228,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="295"/>
+        <TextBlock HorizontalAlignment="Left" Margin="536,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="138" Width="555" FontSize="14">
+        	<Run Text="This is a sample app to "/>
+        	<Run Text="demonstrate how to pass data from a C# library to a cross compliable C++ library. When you click on &quot;Call to Native&quot; a C++ library is called and works on data provided by the CsLibrary class defined in CsLibrary.cs."/>
+        	<Run Text=" CsLibrary returns a List&lt;int&gt; with values {1,2,3,4,5} and the C++ library increments the elements."/>
+        	<Run Text=" Use breakpoints to debug the code. The corresponding blogpost is here: "/>
+        	           
+        	
+        	<LineBreak/>
+        	<Run/>
+            <Hyperlink  NavigateUri="http://kalapos.azurewebsites.net/passing-data-from-c-to-pure-c-via-windows-runtime" > http://kalapos.azurewebsites.net/passing-data-from-c-to-pure-c-via-windows-runtime </Hyperlink>
+        </TextBlock>
+
+    </Grid>
+</Page>

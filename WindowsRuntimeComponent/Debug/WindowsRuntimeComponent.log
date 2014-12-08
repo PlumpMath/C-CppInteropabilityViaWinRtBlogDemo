@@ -1,0 +1,18 @@
+﻿Build started 08.12.2014 11:20:36.
+     1>Project "C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\WindowsRuntimeComponent\WindowsRuntimeComponent.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\SharedCppLayer" /I"C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\WindowsRuntimeComponent\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _WINRT_DLL /D _WINDLL /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\pch.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd28204 /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj WinRtDataSource.cpp
+         WinRtDataSource.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.dll" /INCREMENTAL /NOLOGO runtimeobject.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /APPCONTAINER /WINMD /WINMDFILE:"C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /DLL Debug\DataSource.obj
+         Debug\pch.obj
+         Debug\CppLogicWrapper.obj
+         Debug\WinRtDataSource.obj
+         "C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\SharedCppLayer\SharedCppLayer.lib"
+            Creating library C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.lib and object C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.exp
+         WindowsRuntimeComponent.vcxproj -> C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\WindowsRuntimeComponent\WindowsRuntimeComponent.dll
+     1>Done Building Project "C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\WindowsRuntimeComponent\WindowsRuntimeComponent.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.92

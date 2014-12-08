@@ -1,0 +1,15 @@
+﻿Build started 08.12.2014 11:20:35.
+     1>Project "C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\SharedCppLayer\SharedCppLayer.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(366,5): warning MSB8021: The value 'MultiByte' of the variable 'CharacterSet' is incompatible with the value 'true' of the variable 'WindowsAppContainer'.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\SharedCppLayer\\" /I"Generated Files\\" /IDebug\ /ZI /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CppLogic.cpp
+         CppLogic.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\SharedCppLayer\SharedCppLayer.lib" /NOLOGO Debug\CppLogic.obj
+         SharedCppLayer.vcxproj -> C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\Debug\SharedCppLayer\SharedCppLayer.lib
+     1>C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v12.0\AppxPackage\Microsoft.AppXPackage.Targets(2893,9): warning APPX1901: The DefaultLanguage property is either missing from the project file or does not have a value. The fallback language is set to the Visual Studio language: de-AT.
+     1>Done Building Project "C:\Users\gergo\Documents\Visual Studio 2013\Projects\CsCppInteropDemo\SharedCppLayer\SharedCppLayer.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.50
